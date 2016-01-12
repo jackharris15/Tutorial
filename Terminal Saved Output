@@ -1,0 +1,41 @@
+Last login: Thu Dec 24 07:56:35 on ttys000
+
+Jacks-MacBook-Pro:~ Jack$ 
+Jacks-MacBook-Pro:~ Jack$ ls
+Applications				Public
+Creative Cloud Files			ex12.py
+Desktop					ex15sample.txt
+Documents				ex16.py
+Downloads				ex19test.py
+Jack					ex5.py
+Library					ex7.py
+Movies					ex8.py
+Music					pythhard
+OFM LOGO - very high resolution.png	railsbridge
+Pictures				web-test
+Jacks-MacBook-Pro:~ Jack$ cd web-test
+Jacks-MacBook-Pro:web-test Jack$ ls
+android-test	images		ruby-gallery	styles
+google-project	index.html	scripts
+Jacks-MacBook-Pro:web-test Jack$ cd
+Jacks-MacBook-Pro:~ Jack$ cd..
+-bash: cd..: command not found
+Jacks-MacBook-Pro:~ Jack$ cd web-test
+Jacks-MacBook-Pro:web-test Jack$ ls
+android-test	images		ruby-gallery	styles
+google-project	index.html	scripts
+Jacks-MacBook-Pro:web-test Jack$ mkdir tutorial-git
+Jacks-MacBook-Pro:web-test Jack$ cd tutorial-git
+Jacks-MacBook-Pro:tutorial-git Jack$ ls
+Jacks-MacBook-Pro:tutorial-git Jack$ git clone https://github.com/jackharris15/Tutorial.git
+Cloning into 'Tutorial'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+Jacks-MacBook-Pro:tutorial-git Jack$ ls
+Tutorial
+Jacks-MacBook-Pro:tutorial-git Jack$ cd tutorial
+Jacks-MacBook-Pro:tutorial Jack$ ls
+README.md
+Jacks-MacBook-Pro:tutorial Jack$ 
